@@ -1,8 +1,7 @@
 use sysinfo::{Process, System, Pid, RefreshKind, ProcessRefreshKind, Components};
 use native_dialog::{MessageDialog, MessageType};
 use std::process;
-use display_info::DisplayInfo;
-use std::time::Instant;
+
 
 const BLACK_LIST_OF_PROCCESS: [&str; 2] = ["firefox", "msedge"];
 
